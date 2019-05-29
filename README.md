@@ -1,4 +1,4 @@
-Slices: a package for manipulating Golang's slice data type
+## Slices: a package for manipulating Golang's slice data type
 
 This package implements some slice operations not provided by Golang's internal packages. Here are some of them:
 
