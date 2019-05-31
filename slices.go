@@ -62,3 +62,18 @@ func IndexInStringSlice (stringSlice []string, element string) (int) { /* This f
 
 	return -1
 }
+
+func RevStringSlice (stringSlice []string) (revdSlice []string) { /* This function reverses a
+	string slice.
+
+	INPUT
+	input 0: The string slice to be reversed.
+
+	OUTPT
+	outpt 0: Reversed form of the input 0. */
+
+	for index := len (stringSlice) - 1; index >= 0; index -- {
+		revdSlice = append (revdSlice, stringSlice [index])
+	}
+	return
+}
